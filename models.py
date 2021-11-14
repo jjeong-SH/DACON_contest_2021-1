@@ -43,6 +43,7 @@ def build_model1(filter, l_rate, opti):
 
     return model1
   
+    
 def build_model2(l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
@@ -76,6 +77,7 @@ def build_model2(l_rate, opti):
 
     return model2
   
+    
 def build_model3(filter, l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
@@ -108,6 +110,7 @@ def build_model3(filter, l_rate, opti):
 
     return model3
   
+    
 def build_model4(l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
@@ -139,6 +142,7 @@ def build_model4(l_rate, opti):
 
     return model4
   
+    
 def build_model5(l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
@@ -181,6 +185,7 @@ def build_model5(l_rate, opti):
 
     return model5
   
+    
 def build_model6(l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
@@ -235,6 +240,7 @@ def build_model6(l_rate, opti):
 
     return model6
   
+    
 def build_model8(l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
@@ -266,6 +272,7 @@ def build_model8(l_rate, opti):
 
     return model8
   
+    
 def build_model9(l_rate, opti):
     ip = Input(shape=(num_time, num_features))
 
